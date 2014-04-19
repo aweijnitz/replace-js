@@ -33,7 +33,7 @@ __searchPattern__ can be any valid javascript regexp. Internally, it is wrapped 
 
 	node replace.js -v -i *js /home/user/projects/MyApp/src console "// console"
 
-*Note:* Not really a safe thing to do, unless you know all of them are on a separate line!
+*Note:* Not really a safe thing to do, unless you know all of them are on separate lines!
 
 
 
