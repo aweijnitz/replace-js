@@ -1,6 +1,6 @@
 {
   "name": "replace-js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Global search and replace in files in a tree. (Node)",
   "main": "replace.js",
   "scripts": {
