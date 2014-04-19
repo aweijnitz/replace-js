@@ -1,0 +1,21 @@
+{
+  "name": "replace-js",
+  "version": "0.0.1",
+  "description": "Global search and replace in files in a tree. (Node)",
+  "main": "replace.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter list"
+  },
+  "author": "Anders Weijnitz",
+  "license": "MIT",
+  "dependencies": {
+    "optimist": "~0.6.1",
+    "filewalker": "~0.1.2",
+    "minimist": "0.0.8",
+    "minimatch": "~0.2.14"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "rimraf": "~2.2.6"
+  }
+}
