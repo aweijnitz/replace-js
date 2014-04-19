@@ -6,7 +6,7 @@ var rmDir = require('rimraf').sync;
 
 var readReplaceWrite = require('../lib/file-processor.js');
 
-var tmpDir = os.tmpdir();
+var tmpDir = path.resolve('.') + path.sep; //os.tmpdir();
 var testDirBase = tmpDir + 'replace-js';
 var testData = "This is some multi-line text.\nWritten By Anders Weijnitxz\n";
 

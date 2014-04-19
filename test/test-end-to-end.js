@@ -7,7 +7,7 @@ var rmDir = require('rimraf').sync;
 // Our lib under test
 var replace = require('../replace.js');
 
-var tmpDir = os.tmpdir();
+var tmpDir = path.resolve('.') + path.sep; // os.tmpdir();
 var testDirsNames = ['replace-js', 'a', 'b', 'c'];
 var testDirBase = tmpDir + testDirsNames[0];
 var testDirs = [];
