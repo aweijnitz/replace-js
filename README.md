@@ -1,6 +1,9 @@
 # Replace.js
 Traverse a file tree and search/replace text in files mathing a search expression. Node.js command line utility.
 
+Build status: [![Build Status](https://travis-ci.org/aweijnitz/replace-js.png)](https://travis-ci.org/aweijnitz/replace-js)
+
+
 ## Install
 - Download/git clone this repo
 - Go to the folder
